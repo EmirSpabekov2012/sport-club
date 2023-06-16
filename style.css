@@ -1,0 +1,49 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #D9D9D9;
+}
+
+.container {
+    width: 995px;
+    margin: 0 auto;
+    background-color: #FFFFFF;
+}
+
+.logos {
+    display: flex;
+    justify-content: space-between;
+}
+
+.main-logo {
+    width: 117px;
+}
+
+.main-sponsors {
+    width: 370px;
+    display: flex;
+}
+
+.sponsors-wrap {
+    width: 215px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.main-nav {
+    width: 974px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.nav-list {
+    width: 572px;
+    display: flex;
+    justify-content: space-between;
+    margin: 0;
+    padding: 0;
+}
+
+.list-item {
+    list-style: none;
+}
