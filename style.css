@@ -47,3 +47,6 @@ body {
 .list-item {
     list-style: none;
 }
+.news {
+  display: flex;  
+}
