@@ -8,6 +8,14 @@
 	font-display: swap;
 }
 
+@font-face{
+ font-family: "Inter Thin";  
+ src: url("fonts/inter-regular.woff2") format("woff2"), url("fonts/inter-regular.woff") format("woff"); 
+ font-style: normal;
+    font-weight: 100;
+    font-display: swap;
+}
+
 /* GLOBAL STYLES */
 
 * {
@@ -21,7 +29,6 @@ body {
 	font-family: "Inner Regular", "Arial", "Helvetica", sans-serif;
     background-color: #D9D9D9;
 }
-
 .container {
     width: 995px;
     margin: 0 auto;
