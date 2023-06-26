@@ -1,3 +1,7 @@
+* {
+    box-sizing: border-box;
+}
+
 body {
     margin: 0;
     padding: 0;
@@ -45,8 +49,43 @@ body {
 }
 
 .list-item {
+    display: flex;
     list-style: none;
 }
 .news {
   display: flex;  
+}
+
+.item-title,
+.item-date,
+.item-link {
+    padding: 0;
+    margin: 0;
+}
+
+.news {
+	display: flex;  
+}
+
+.indicators {
+    display: flex;
+    justify-content: space-between;
+}
+
+.fixtures-item, 
+.results-item, 
+.table-item {
+    display: flex;
+}
+
+.fixtures-date, 
+.fixtures-match, 
+.results-match, 
+.results-score,
+.table-score,
+.table-match,
+.table-score  {
+    padding: 0;
+    margin: 0;
+
 }
