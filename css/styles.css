@@ -122,3 +122,22 @@ body {
 	flex-direction: column;
 }
 
+.page-footer {
+    display:flex;
+   flex-direction:column;
+   background-color: #f8f9fa;
+}
+.menu, .socials{
+display: flex;
+justify-content: space-between;
+list-style: none;
+}
+.menu-link{
+    color:black;
+    font-weight: bold;
+    text-decoration: none;
+}
+.footer-container{
+    width:470px;
+    margin:0 auto;
+}
