@@ -141,3 +141,60 @@ list-style: none;
     width:470px;
     margin:0 auto;
 }
+.main-logo{
+    background-color: red;
+    border-radius: 30px 30px 0 0;
+    width:117px;
+    height: 101px;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+    display: flex;
+    justify-content: center;
+}
+.img-logo{
+    width: 63px;
+    height: 88px;
+    padding-top: 10px;
+}
+.page-header{
+    background-color:#d9d9d9;
+}
+.main-sponsors{
+    background-color: white;
+    border-radius: 30px 30px 0 0;
+    width: 386px;
+    height: 101px;
+     display: flex;
+    justify-content: center;
+    padding: 15px;
+}
+.main-nav{
+    background-color: red;
+    padding: 15px 0;
+    margin-top: 5px;
+}
+.nav-link{
+    color: white;
+    text-decoration: none;
+    font-size: 14px;
+}
+.section-title{
+    background-color: red;
+    padding: 15px;
+    width: 224px;
+    color: white;
+
+    font-weight: normal;
+}
+.news-title{
+    background-color: red;
+    color: white;
+    font-weight: normal;
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 20px;
+}
+.item-title{
+    font-weight: normal;
+    font-size: 15px;
+    text-transform: uppercase;
+}
