@@ -9,9 +9,9 @@
 }
 
 @font-face{
- font-family: "Inter Thin";  
- src: url("fonts/inter-regular.woff2") format("woff2"), url("fonts/inter-regular.woff") format("woff"); 
- font-style: normal;
+ 	font-family: "Inter Thin";  
+ 	src: url("fonts/inter-regular.woff2") format("woff2"), url("fonts/inter-regular.woff") format("woff"); 
+ 	font-style: normal;
     font-weight: 100;
     font-display: swap;
 }
@@ -28,11 +28,37 @@ body {
 	font-weight: 400;
 	font-family: "Inner Regular", "Arial", "Helvetica", sans-serif;
     background-color: #D9D9D9;
-}
+}/* CONTAINERS */
 .container {
     width: 995px;
     margin: 0 auto;
     background-color: #FFFFFF;
+}.footer-container{
+    width:470px;
+    margin:0 auto;
+}/* HEADER */.page-header{
+    background-color:#d9d9d9;
+}.nav-list {
+    width: 572px;
+    display: flex;
+    justify-content: space-between;
+    margin: 0;
+    padding: 0;
+}.nav-link {
+    color: white;
+    text-decoration: none;
+    font-size: 14px;
+}.main-logo {	width: 117px;
+    height: 101px;	display: flex;
+    justify-content: center;	border-radius: 30px 30px 0 0;
+    background-color: red;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+}.main-sponsors {	width: 386px;
+    height: 101px;	display: flex;
+    justify-content: center;
+    background-color: white;
+    border-radius: 30px 30px 0 0;
+    padding: 15px;
 }
 
 .logos {
@@ -47,32 +73,26 @@ body {
 .main-sponsors {
     width: 370px;
     display: flex;
-}
+}.main-nav {
+    width: 974px;
+    display: flex;
+    justify-content: space-between;	background-color: red;
+    padding: 15px 0;
+    margin-top: 5px;
+}.list-item {
+    display: flex;
+    list-style: none;
+}.img-logo {
+    width: 63px;
+    height: 88px;
+    padding-top: 10px;
+}/* MAIN */
 
 .sponsors-wrap {
     width: 215px;
     display: flex;
     flex-wrap: wrap;
-}
-
-.main-nav {
-    width: 974px;
-    display: flex;
-    justify-content: space-between;
-}
-
-.nav-list {
-    width: 572px;
-    display: flex;
-    justify-content: space-between;
-    margin: 0;
-    padding: 0;
-}
-
-.list-item {
-    display: flex;
-    list-style: none;
-}
+}
 .news {
   display: flex;  
 }
@@ -120,90 +140,38 @@ body {
 .list-item {
 	display: flex;
 	flex-direction: column;
-}
-
-.page-footer {
-    display:flex;
-   flex-direction:column;
-   background-color: #f8f9fa;
-}
-.menu, .socials{
-display: flex;
-justify-content: space-between;
-list-style: none;
-}
-.menu-link{
-    color:black;
-    font-weight: bold;
-    text-decoration: none;
-}
-.footer-container{
-    width:470px;
-    margin:0 auto;
-}
-.main-logo{
-    background-color: red;
-    border-radius: 30px 30px 0 0;
-    width:117px;
-    height: 101px;
-    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
-    display: flex;
-    justify-content: center;
-}
-.img-logo{
-    width: 63px;
-    height: 88px;
-    padding-top: 10px;
-}
-.page-header{
-    background-color:#d9d9d9;
-}
-.main-sponsors{
-    background-color: white;
-    border-radius: 30px 30px 0 0;
-    width: 386px;
-    height: 101px;
-     display: flex;
-    justify-content: center;
-    padding: 15px;
-}
-.main-nav{
-    background-color: red;
-    padding: 15px 0;
-    margin-top: 5px;
-}
-.nav-link{
-    color: white;
-    text-decoration: none;
-    font-size: 14px;
-}
-.section-title{
-    background-color: red;
-    padding: 15px;
+}.section-title {
     width: 224px;
     color: white;
-
-    font-weight: normal;
-}
-.news-title{
-    background-color: red;
-    color: white;
+    font-weight: normal;	background-color: red;
+	padding: 15px;
+}.news-title {
+    color: white;	font-size: 20px;
     font-weight: normal;
     text-align: center;
-    text-transform: uppercase;
-    font-size: 20px;
-}
-.item-title{
-    font-weight: normal;
-    font-size: 15px;
-    text-transform: uppercase;
-}
-.current-news{
-    position: relative;
-}
-.news-title{
+    text-transform: uppercase;	background-color: red;	width: 710px;
     position:absolute;
     bottom:0;
-    width: 710px;
-     padding:5px 0; 
+    padding:5px 0; 
+}.item-title {	font-size: 15px;
+    font-weight: normal;
+    text-transform: uppercase;
+}.current-news {
+    position: relative;
+}/* FOOTER */
+
+.page-footer {
+	display: flex;
+	flex-direction: column;
+	background-color: #f8f9fa;
+}
+.menu, .socials {
+	display: flex;
+	justify-content: space-between;
+	list-style: none;
+}
+.menu-link {
+    color: black;
+    font-weight: bold;
+    text-decoration: none;
 }
