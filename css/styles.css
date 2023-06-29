@@ -198,3 +198,12 @@ list-style: none;
     font-size: 15px;
     text-transform: uppercase;
 }
+.current-news{
+    position: relative;
+}
+.news-title{
+    position:absolute;
+    bottom:0;
+    width: 710px;
+     padding:5px 0; 
+}
