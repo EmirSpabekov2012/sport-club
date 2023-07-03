@@ -262,7 +262,40 @@ body {
 	background-color: transparent;
 	position: absolute;
 	right: 5px;
-}
+}.players-list > .list-item{
+    display: flex;
+    flex-direction: column;
+}
+.ads{
+    display: flex;
+}
+.backward{
+    font-size: 0;
+    display: block;
+    width: 15px;
+    height: 15px;
+    background-image: url("../img/arrow-left.svg");
+}
+.forward{
+	font-size: 0;
+    display: block;
+    width: 15px;
+    height: 15px;
+    background-image: url("../img/arrow-right.svg");  
+}
+.players-title{
+    font-size: 20px;
+    text-align: center;
+    display:block;
+    width: 705px;
+    background-color: red;
+    font-weight: normal;
+    padding: 10px 0;
+    color: white;
+}
+.ads-players{    display: block;	width: 705px;
+    border: 2px solid red;
+}.players-list > .list-item > .item-description {	color: white;	background-color: red;}.ads-show {	display: block;	text-align: center;	width: 705px;}.ads-store {	width: 224px;}
 
 /* FOOTER */
 
@@ -277,39 +310,4 @@ body {
 	display: flex;
 	justify-content: space-between;
 	list-style: none;
-}
-.players-list > .list-item{
-    display: flex;
-    flex-direction: column;
-}
-.ads{
-    display: flex`;
-}
-.backward{
-    font-size: 0;
-    display:block;
-    width:15px;
-    height:15px;
-    background-image: url("../img/arrow-left.svg");
-}
-.forward{
-  font-size: 0;
-    display:block;
-    width:15px;
-    height:15px;
-    background-image: url("../img/arrow-right.svg");  
-}
-.players-title{
-    font-size: 20px;
-    text-align: center;
-    display:block;
-    width: 705px;
-    background-color: red;
-    font-weight: normal;
-    padding: 10px 0;
-    color: white;
-}
-.players{
-    width: 705px;
-    border: 2px solid red;
 }
