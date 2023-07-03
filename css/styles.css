@@ -118,7 +118,9 @@ body {
     width: 63px;
     height: 88px;
     padding-top: 10px;
-}.search-field{
+}
+
+.search-field{
 	width: 224px;
 	height:37px;
 	border: none;
@@ -211,30 +213,56 @@ body {
 
 .current-news {
     position: relative;
-}.menu-link {
+}
+
+.menu-link {
     color: black;
     font-weight: bold;
     text-decoration: none;
-}.list-item{
+}
+
+.list-item{
     display:flex ;
     flex-direction: row;
-}.news-list{
+}
+
+.news-list{
     padding-top: 80px;
-}
+}
+
 .item-date{
     font-size: 8px;
-}
+}
+
 .item-link{
     font-size:12px;
-}.news-list > .list-item {
+}
+
+.news-list > .list-item {
 	background-color: #e9e8e8;
 	margin-bottom: 18px;
-}
+}
+
 .item-description{
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
-}.search-form {	position: relative;}.search-button {	width: 21px;	height: 33px;	font-size: 0;	border: none;	background-image: url("../img/search-icon.svg");	background-color: transparent;	position: absolute;	right: 5px;}
+}
+
+.search-form {
+	position: relative;
+}
+
+.search-button {
+	width: 21px;
+	height: 33px;
+	font-size: 0;
+	border: none;
+	background-image: url("../img/search-icon.svg");
+	background-color: transparent;
+	position: absolute;
+	right: 5px;
+}
 
 /* FOOTER */
 
@@ -249,4 +277,39 @@ body {
 	display: flex;
 	justify-content: space-between;
 	list-style: none;
-}
+}
+.players-list > .list-item{
+    display: flex;
+    flex-direction: column;
+}
+.ads{
+    display: flex`;
+}
+.backward{
+    font-size: 0;
+    display:block;
+    width:15px;
+    height:15px;
+    background-image: url("../img/arrow-left.svg");
+}
+.forward{
+  font-size: 0;
+    display:block;
+    width:15px;
+    height:15px;
+    background-image: url("../img/arrow-right.svg");  
+}
+.players-title{
+    font-size: 20px;
+    text-align: center;
+    display:block;
+    width: 705px;
+    background-color: red;
+    font-weight: normal;
+    padding: 10px 0;
+    color: white;
+}
+.players{
+    width: 705px;
+    border: 2px solid red;
+}
