@@ -262,27 +262,34 @@ body {
 	background-color: transparent;
 	position: absolute;
 	right: 5px;
-}.players-list > .list-item{
+}
+
+
+.players-list > .list-item{
     display: flex;
     flex-direction: column;
-}
+}
+
 .ads{
     display: flex;
-}
+}
+
 .backward{
     font-size: 0;
     display: block;
     width: 15px;
     height: 15px;
     background-image: url("../img/arrow-left.svg");
-}
+}
+
 .forward{
 	font-size: 0;
     display: block;
     width: 15px;
     height: 15px;
     background-image: url("../img/arrow-right.svg");  
-}
+}
+
 .players-title{
     font-size: 20px;
     text-align: center;
@@ -292,10 +299,28 @@ body {
     font-weight: normal;
     padding: 10px 0;
     color: white;
-}
-.ads-players{    display: block;	width: 705px;
+}
+
+.ads-players{
+    display: block;
+	width: 705px;
     border: 2px solid red;
-}.players-list > .list-item > .item-description {	color: white;	background-color: red;}.ads-show {	display: block;	text-align: center;	width: 705px;}.ads-store {	width: 224px;}
+}
+
+.players-list > .list-item > .item-description {
+	color: white;
+	background-color: red;
+}
+
+.ads-show {
+	display: block;
+	text-align: center;
+	width: 705px;
+}
+
+.ads-store {
+	width: 224px;
+}
 
 /* FOOTER */
 
@@ -310,4 +335,27 @@ body {
 	display: flex;
 	justify-content: space-between;
 	list-style: none;
+}
+.store-title{
+    display: block;
+    width: 224px;
+    background-color: red;
+    color: white;
+    padding: 10px 0;
+}
+.store-list>.list-item{
+    width:206px;
+    display: flex;
+    margin:0 0 10px 0;
+}
+.store-list .item-cost{
+font-size: 8px;
+}
+.item-description{
+    background-color: red;
+    color: white;
+}
+.store-list{
+    padding: 5px;
+    border:2px solid red;
 }
