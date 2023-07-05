@@ -359,3 +359,25 @@ font-size: 8px;
     padding: 5px;
     border:2px solid red;
 }
+.social-item{
+    font-size:0;
+    display: block;
+    width:35px;
+    height:35px;
+    background-repeat: no-repeat;
+}
+.social-item:nth-child(1){
+    background-image:url("../img/instagram.svg");
+}
+.social-item:nth-child(2){
+    background-image:url("../img/linkedin.svg");
+}
+.social-item:nth-child(3){
+    background-image:url("../img/facebook.svg");
+}
+.social-item:nth-child(4){
+    background-image:url("../img/youtube.svg");
+}
+.social-item:nth-child(5){
+    background-image:url("../img/twitter.svg");
+}
