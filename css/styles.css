@@ -335,49 +335,49 @@ body {
 	display: flex;
 	justify-content: space-between;
 	list-style: none;
-}
+}
 .store-title{
     display: block;
     width: 224px;
     background-color: red;
     color: white;
     padding: 10px 0;
-}
+}
 .store-list>.list-item{
     width:206px;
     display: flex;
     margin:0 0 10px 0;
-}
+}
 .store-list .item-cost{
-font-size: 8px;
-}
+	font-size: 8px;
+}
 .item-description{
     background-color: red;
     color: white;
-}
+}
 .store-list{
     padding: 5px;
     border:2px solid red;
-}
-.social-item{
+}
+.social-item .social-link{
     font-size:0;
     display: block;
     width:35px;
     height:35px;
     background-repeat: no-repeat;
-}
-.social-item:nth-child(1){
+}
+.social-item:nth-child(1) .social-link{
     background-image:url("../img/instagram.svg");
-}
-.social-item:nth-child(2){
+}
+.social-item:nth-child(2) .social-link{
     background-image:url("../img/linkedin.svg");
-}
-.social-item:nth-child(3){
+}
+.social-item:nth-child(3) .social-link{
     background-image:url("../img/facebook.svg");
-}
-.social-item:nth-child(4){
+}
+.social-item:nth-child(4) .social-link{
     background-image:url("../img/youtube.svg");
-}
-.social-item:nth-child(5){
+}
+.social-item:nth-child(5) .social-link{
     background-image:url("../img/twitter.svg");
 }
